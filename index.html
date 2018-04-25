@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Search Example</title>
+        <style>
+            body {
+                font-family: Arial;
+                font-size: 14px;
+                color: #000;
+                overflow: auto;
+            }
+
+            section {
+                width: 32%;
+                float: left;
+            }
+        </style>
+        <script type="text/javascript" src="js/underscore.js"></script>
+    </head>
+    <body>
+        <h1>Search Example</h1>
+        <input type="text" value="" id="searchfield" /><p>Current maximum score: <span id="maxscore"></span></p>
+        <section class="data">
+            <h2>Data</h2>
+            <ul id="data"></ul>
+        </section>
+        <section class="results">
+            <h2>Results</h2>
+            <ul id="results"></ul>
+        </section>
+        <script src="js/data.js"></script>
+        <script src="js/SearchWrup.js"></script>
+    </body>
+</html>
